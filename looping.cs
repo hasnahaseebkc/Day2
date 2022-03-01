@@ -11,6 +11,9 @@ namespace MyFirstConsoleApp
     {
         public static void Main()
         {
+
+            //*********** SUM OF N NATURAL NUMBERS **********
+
             int num,sum=0;
             Console.WriteLine("Enter a number :");
             num=int.Parse(Console.ReadLine());
@@ -19,7 +22,7 @@ namespace MyFirstConsoleApp
             Console.WriteLine(sum);
 
 
-            //CALCULATOR
+            //*********** SWITCH CASE CALCULATOR PROGRAM ***********
 
             int op, a, b;
             float res;
