@@ -34,7 +34,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <StartupObject>MyFirstConsoleApp.passing</StartupObject>
+    <StartupObject>MyFirstConsoleApp.arrays</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arrays.cs" />
     <Compile Include="looping.cs" />
     <Compile Include="passing.cs" />
     <Compile Include="Program.cs" />
